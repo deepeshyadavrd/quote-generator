@@ -5,9 +5,18 @@ class App extends React.Component{
   state = { advice: ""};
 
   componentDidMount(){
-    console.log('Component did mount');
+    this.fetchAdvice();
   }
 
+  fetchAdvice = () =>{
+    axios.get('https://api.adviceslip.com/advice')
+    .then((response) => {
+      console.log(response)
+    })
+    .catch((error) =>{
+      console.log(error)
+    })
+  }
   render(){
     return(
       
