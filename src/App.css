@@ -7,9 +7,18 @@
 
 .app{
     height: 100%;
-    background: url('./images/city.jpg');
+    background: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./images/city.jpg');
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: whitesmoke;
+    width: 40%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
