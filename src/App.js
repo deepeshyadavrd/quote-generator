@@ -8,6 +8,7 @@ class App extends React.Component{
     this.fetchAdvice();
   }
 
+  
   fetchAdvice = () =>{
     axios.get('https://api.adviceslip.com/advice')
     .then((response) => {
