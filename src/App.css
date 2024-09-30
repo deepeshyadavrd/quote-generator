@@ -4,7 +4,6 @@
     height: 100vh;
     box-sizing: border-box;
 }
-
 .app{
     height: 100%;
     background: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./images/city.jpg');
@@ -14,7 +13,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .card{
     background-color: whitesmoke;
     width: 40%;
@@ -27,14 +25,12 @@
     padding: 2%;
     box-shadow: 10px 10px;
 }
-
 .heading{
     display: flex;
     align-items: center;
     height: 580px;
     font-family: "League Spartan", sans-serif;
 }
-
 .button {
     position: relative;
     outline: none;
@@ -51,23 +47,19 @@
     background-color: #ffffff;
     border: 1px solid rgba(22, 76, 167, 0.6);
   }
-    
   .button span {
     color: #164ca7;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.7px;
   }
-    
   .button:hover {
     animation: rotate 0.7s ease-in-out both;
   }
-    
   .button:hover span {
     animation: storm 0.7s ease-in-out both;
     animation-delay: 0.06s;
   }
-    
   @keyframes rotate {
     0% {
       transform: rotate(0deg) translate3d(0, 0, 0);
@@ -85,7 +77,6 @@
       transform: rotate(0deg) translate3d(0, 0, 0);
     }
   }
-    
   @keyframes storm {
     0% {
       transform: translate3d(0, 0, 0) translateZ(0);
@@ -103,7 +94,6 @@
       transform: translate3d(0, 0, 0) translateZ(0);
     }
   }  
-  
   @media only screen and (max-width: 600px) {
     .card {
         width: 80%;
